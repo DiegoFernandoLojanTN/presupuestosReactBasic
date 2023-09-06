@@ -3,12 +3,11 @@ Presupuesto Semanal: una aplicación básica desarrollada con React que permite 
 
 ## Imagenes de Referencia
 
-Inicio de la app:
+### `Inicio de la app:`
 
 [![1.png](https://i.postimg.cc/HWZLyHjg/1.png)](https://postimg.cc/NLXt331J)
 
-### `npm start`
+### `Contenido`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![2.png](https://i.postimg.cc/nLhNQBzk/2.png)](https://postimg.cc/PC0SgL1p)
 
