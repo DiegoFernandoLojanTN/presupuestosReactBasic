@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  background: url('https://economipedia.com/wp-content/uploads/Presupuesto-de-gastos.png') center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  margin: 20px 0;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.contenido-principal {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 90rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-left: -160px; 
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  background: linear-gradient(to right, #ff6600, #ff6600) 0 100% / 100% 3px no-repeat;
+  background-origin: border-box;
+}
+
+h2 {
+  color: #555;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease;
+}
+
+.alert-danger {
+  background: linear-gradient(to right, #ff5c5c, #ff4040);
+  color: white;
+}
+
+.alert:hover {
+  transform: translateX(3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.gastos-realizados li {
+  list-style: none;
+  margin-bottom: 0;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 1rem 0;
+}
+
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0!important;
+}
+
+.gastos-realizados li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.gastos-realizados li p .gasto {
+  background-color: #444;
+  padding: 1rem;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.gastos-realizados li p .gasto:hover {
+  background-color: #555;
+}
+
+input.button-primary.u-full-width[type="submit"] {
+  background-color: #ff6600;
+  color: white;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+input.button-primary.u-full-width[type="submit"]:hover {
+  background-color: #ff8533;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.column {
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: #444;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease;
+}
+
+.column:hover {
+  transform: translateX(3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.alert-custom {
+  background: linear-gradient(to right, #ff99cc, #ff66b3);
+  color: white;
+}
+
+.alert-custom:hover {
+  background: linear-gradient(to right, #ff88c2, #ff3399);
+}
+
+.alert p, .presupuesto p, .campo, .error {
+  margin-bottom: 0;
+}
+
+.presupuesto p span {
+  font-weight: normal;
+}
+
+#gastos {
+  margin-bottom: 20px;
+}
+
+.one-half {
+  width: 50%;
+  float: left;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.2) 100%);
+  z-index: -1;
+}
+
+input.u-full-width {
+  font-size: 2.5rem; /* Ajusta el tamaño de la letra según lo que necesites */
+}
+label {
+  font-size: 2.3rem; /* Ajusta el tamaño de la letra según lo que necesites */
+}
+
+p {
+  font-size: 2rem; /* Ajusta el tamaño de la letra según lo que necesites */
+}
